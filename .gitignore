@@ -1,0 +1,31 @@
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Simulation outputs
+rom_results.csv
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large CFD datasets
+data/raw/
+data/processed/
+*.h5
+*.hdf5
+*.vtk
+*.vtu
+*.foam
+*.cas
+
+# Temporary files
+*.log
+*.tmp
